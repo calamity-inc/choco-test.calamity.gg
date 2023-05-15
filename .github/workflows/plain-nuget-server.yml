@@ -13,7 +13,7 @@ jobs:
         run: curl https://raw.githubusercontent.com/calamity-inc/plain-nuget-server/senpai/gen.php > gen.php
 
       - name: Build
-        run: php gen.php choco.calamity.gg
+        run: php gen.php choco-test.calamity.gg
 
       - name: Add .nojekyll
         run: touch www/.nojekyll
